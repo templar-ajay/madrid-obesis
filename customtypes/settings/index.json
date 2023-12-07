@@ -78,6 +78,15 @@
           "select": "document",
           "customtypes": ["iframe"]
         }
+      },
+      "block_indexing_by_search_engines": {
+        "type": "Boolean",
+        "config": {
+          "label": "Block Indexing by Search Engines",
+          "placeholder_false": "false",
+          "placeholder_true": "true",
+          "default_value": true
+        }
       }
     }
   }

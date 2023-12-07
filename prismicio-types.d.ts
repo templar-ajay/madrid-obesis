@@ -572,6 +572,18 @@ interface SettingsDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
   default_iframe: prismic.ContentRelationshipField<"iframe">;
+
+  /**
+   * Block Indexing by Search Engines field in *Settings*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: true
+   * - **API ID Path**: settings.block_indexing_by_search_engines
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#boolean
+   */
+  block_indexing_by_search_engines: prismic.BooleanField;
 }
 
 /**
