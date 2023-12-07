@@ -1,0 +1,177 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43",
+					"width": 4024,
+					"height": 4024
+				},
+				"url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43",
+				"width": 4024,
+				"height": 4024,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"transition_image_1": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef",
+					"width": 4000,
+					"height": 6000
+				},
+				"url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?rect=0%2C2688%2C4000%2C625&w=1280&h=200",
+				"width": 1280,
+				"height": 200,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 2688
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"cta_text": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "CLAIM YOUR FREE STRATEGY SESSION"
+			},
+			"transition_out_image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e",
+					"width": 6000,
+					"height": 4000
+				},
+				"url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?rect=0%2C1531%2C6000%2C937&w=1280&h=200",
+				"width": 1280,
+				"height": 200,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 1531
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"background_image": {
+				"origin": {
+					"id": "0v_1TPz1uXw",
+					"url": "https://images.unsplash.com/photo-1528825871115-3581a5387919?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw3fHxmcnVpdHxlbnwwfHx8fDE3MDA0NjU5NDd8MA&ixlib=rb-4.0.3&q=85",
+					"width": 2791,
+					"height": 3907
+				},
+				"url": "https://images.unsplash.com/photo-1528825871115-3581a5387919?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw3fHxmcnVpdHxlbnwwfHx8fDE3MDA0NjU5NDd8MA&ixlib=rb-4.0.3&q=85",
+				"width": 2791,
+				"height": 3907,
+				"edit": {
+					"background": "transparent",
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				"credits": null,
+				"alt": "half peeled banana fruit",
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Our Unique Strategy To Drive Buyer Interest For Your Property",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Qui adipisicing dolor exercitation nulla veniam occaecat. Veniam ullamco consequat et ipsum. Ea velit ullamco commodo deserunt elit dolore commodo laborum amet eiusmod occaecat esse tempor.",
+							"spans": []
+						},
+						"direction": "ltr"
+					},
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Qui adipisicing dolor exercitation nulla veniam occaecat. Veniam ullamco consequat et ipsum. Ea velit ullamco commodo deserunt elit dolore commodo laborum amet eiusmod occaecat esse tempor.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"after_cta_text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Discover How You Can Sell Your Home For 11% Higher Than Equivalent Properties Listed With Other Agents And Maximise Your Profit",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"title_color": {
+				"__TYPE__": "FieldContent",
+				"value": "#c03b1f",
+				"type": "Color"
+			},
+			"text_color": {
+				"__TYPE__": "FieldContent",
+				"value": "#b5155a",
+				"type": "Color"
+			},
+			"background_of_small_images": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			},
+			"iframe": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			}
+		},
+		"items": []
+	}
+]

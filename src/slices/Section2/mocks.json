@@ -1,0 +1,629 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Here's A Brief Outline Of What We'll Cover In Your Free Strategy Session",
+							"spans": [
+								{
+									"type": "strong",
+									"start": 51,
+									"end": 72
+								}
+							]
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"background_image": {
+				"origin": {
+					"id": "nibgG33H0F8",
+					"url": "https://images.unsplash.com/photo-1547514701-42782101795e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxM3x8ZnJ1aXR8ZW58MHx8fHwxNzAwNDY1OTQ3fDA&ixlib=rb-4.0.3&q=85",
+					"width": 4000,
+					"height": 6000
+				},
+				"url": "https://images.unsplash.com/photo-1547514701-42782101795e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxM3x8ZnJ1aXR8ZW58MHx8fHwxNzAwNDY1OTQ3fDA&ixlib=rb-4.0.3&q=85",
+				"width": 4000,
+				"height": 6000,
+				"edit": {
+					"background": "transparent",
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				"credits": null,
+				"alt": "two orange fruits on table",
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"transition_in_image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51",
+					"width": 2545,
+					"height": 2545
+				},
+				"url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?rect=0%2C696%2C2545%2C265&w=1920&h=200",
+				"width": 1920,
+				"height": 200,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 696
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"transition_out_image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118",
+					"width": 4160,
+					"height": 3120
+				},
+				"url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?rect=0%2C0%2C4160%2C433&w=1920&h=200",
+				"width": 1920,
+				"height": 200,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"cta_text": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "CLAIM YOUR FREE STRATEGY SESSION"
+			},
+			"after_cta_text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Discover How You Can Sell Your Home For 11% Higher Than Equivalent Properties Listed With Other Agents And Maximise Your Profit",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"key_point_icon": {
+				"url": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxmcnVpdHxlbnwwfHx8fDE3MDA0NjU5NDd8MA&ixlib=rb-4.0.3&q=85&rect=0%2C1434%2C7173%2C7173&w=40&h=40",
+				"alt": "red strawberry fruit with white background",
+				"origin": {
+					"id": "xnRg3xDcNnE",
+					"url": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxmcnVpdHxlbnwwfHx8fDE3MDA0NjU5NDd8MA&ixlib=rb-4.0.3&q=85",
+					"width": 7173,
+					"height": 10041
+				},
+				"width": 40,
+				"height": 40,
+				"edit": {
+					"background": "transparent",
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 1434
+					}
+				},
+				"credits": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"title_color": {
+				"__TYPE__": "FieldContent",
+				"value": "#8a15d2",
+				"type": "Color"
+			},
+			"text_color": {
+				"__TYPE__": "FieldContent",
+				"value": "#a23723",
+				"type": "Color"
+			},
+			"background_of_small_images": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			},
+			"iframe": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"heading",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "WARNING: Waiting To Sell Could Lose You $1000's Per Week",
+										"spans": [
+											{
+												"type": "strong",
+												"start": 0,
+												"end": 7
+											}
+										]
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "According to CoreLogic, the Sydney market is still declining with no end in sight - get out now before you loose every dollar you've made in capital gain ",
+										"spans": [
+											{
+												"type": "strong",
+												"start": 28,
+												"end": 41
+											},
+											{
+												"type": "strong",
+												"start": 51,
+												"end": 81
+											},
+											{
+												"type": "strong",
+												"start": 119,
+												"end": 125
+											}
+										]
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"heading",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "WARNING: Waiting To Sell Could Lose You $1000's Per Week",
+										"spans": [
+											{
+												"type": "strong",
+												"start": 0,
+												"end": 7
+											}
+										]
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "According to CoreLogic, the Sydney market is still declining with no end in sight - get out now before you loose every dollar you've made in capital gain ",
+										"spans": [
+											{
+												"type": "strong",
+												"start": 28,
+												"end": 41
+											},
+											{
+												"type": "strong",
+												"start": 51,
+												"end": 81
+											},
+											{
+												"type": "strong",
+												"start": 119,
+												"end": 125
+											}
+										]
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "According to CoreLogic, the Sydney market is still declining with no end in sight - get out now before you loose every dollar you've made in capital gain ",
+										"spans": [
+											{
+												"type": "strong",
+												"start": 28,
+												"end": 41
+											},
+											{
+												"type": "strong",
+												"start": 51,
+												"end": 81
+											},
+											{
+												"type": "strong",
+												"start": 119,
+												"end": 125
+											}
+										]
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"heading",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "WARNING: Waiting To Sell Could Lose You $1000's Per Week",
+										"spans": [
+											{
+												"type": "strong",
+												"start": 0,
+												"end": 7
+											}
+										]
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"heading",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "WARNING: Waiting To Sell Could Lose You $1000's Per Week",
+										"spans": [
+											{
+												"type": "strong",
+												"start": 0,
+												"end": 7
+											}
+										]
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "According to CoreLogic, the Sydney market is still declining with no end in sight - get out now before you loose every dollar you've made in capital gain ",
+										"spans": [
+											{
+												"type": "strong",
+												"start": 28,
+												"end": 41
+											},
+											{
+												"type": "strong",
+												"start": 51,
+												"end": 81
+											},
+											{
+												"type": "strong",
+												"start": 119,
+												"end": 125
+											}
+										]
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "According to CoreLogic, the Sydney market is still declining with no end in sight - get out now before you loose every dollar you've made in capital gain ",
+										"spans": [
+											{
+												"type": "strong",
+												"start": 28,
+												"end": 41
+											},
+											{
+												"type": "strong",
+												"start": 51,
+												"end": 81
+											},
+											{
+												"type": "strong",
+												"start": 119,
+												"end": 125
+											}
+										]
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"heading",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "WARNING: Waiting To Sell Could Lose You $1000's Per Week",
+										"spans": [
+											{
+												"type": "strong",
+												"start": 0,
+												"end": 7
+											}
+										]
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "pointBlocks",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Strip"
+						}
+					}
+				]
+			},
+			"title_color": {
+				"__TYPE__": "FieldContent",
+				"value": "#d26c77",
+				"type": "Color"
+			},
+			"cta_text": {
+				"__TYPE__": "FieldContent",
+				"value": "fast",
+				"type": "Text"
+			},
+			"after_cta_text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Culpa quis commodo aute. Eiusmod adipisicing magna labore magna amet."
+						}
+					}
+				]
+			},
+			"background_image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa",
+					"width": 2747,
+					"height": 4120
+				},
+				"url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa",
+				"width": 2747,
+				"height": 4120,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"transition_in_image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+					"width": 5243,
+					"height": 3495
+				},
+				"url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?rect=0%2C1474%2C5243%2C546&w=1920&h=200",
+				"width": 1920,
+				"height": 200,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 1474
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"transition_out_image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b",
+					"width": 3560,
+					"height": 5340
+				},
+				"url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?rect=0%2C2485%2C3560%2C371&w=1920&h=200",
+				"width": 1920,
+				"height": 200,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 2485
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"text_color": {
+				"__TYPE__": "FieldContent",
+				"value": "#737428",
+				"type": "Color"
+			},
+			"background_of_small_images": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			},
+			"iframe": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			},
+			"key_point_background_color": {
+				"__TYPE__": "FieldContent",
+				"value": "#b085fd",
+				"type": "Color"
+			},
+			"index_number_background_color": {
+				"__TYPE__": "FieldContent",
+				"value": "#6704da",
+				"type": "Color"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"heading",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Straw"
+									}
+								}
+							]
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Ut mollit ipsum in dolor. Velit enim amet proident ad ex quis occaecat culpa."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	}
+]

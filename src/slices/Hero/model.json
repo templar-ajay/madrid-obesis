@@ -1,0 +1,160 @@
+{
+  "id": "hero",
+  "type": "SharedSlice",
+  "name": "Hero",
+  "description": "Hero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "bond": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Bond",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1,strong,em"
+          }
+        },
+        "bond_color": {
+          "type": "Color",
+          "config": {
+            "label": "Bond Color",
+            "placeholder": ""
+          }
+        },
+        "header": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Header",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2,strong,em"
+          }
+        },
+        "header_color": {
+          "type": "Color",
+          "config": {
+            "label": "Header Color",
+            "placeholder": ""
+          }
+        },
+        "sub_header": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Sub Header",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "sub_header_color": {
+          "type": "Color",
+          "config": {
+            "label": "Sub Header Color",
+            "placeholder": ""
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1280,
+              "height": 720
+            },
+            "thumbnails": []
+          }
+        },
+        "popup_video": {
+          "type": "Embed",
+          "config": {
+            "label": "Popup Video",
+            "placeholder": ""
+          }
+        },
+        "cta_text": {
+          "type": "Text",
+          "config": {
+            "label": "CTA Text",
+            "placeholder": ""
+          }
+        },
+        "iframe": {
+          "type": "Link",
+          "config": {
+            "label": "iFrame",
+            "select": "document",
+            "customtypes": [
+              "iframe"
+            ]
+          }
+        },
+        "after_cta_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "After CTA Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em"
+          }
+        },
+        "background_image": {
+          "type": "Image",
+          "config": {
+            "label": "Background Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "background_image_for_mobile_devices": {
+          "type": "Image",
+          "config": {
+            "label": "Background Image For Mobile Devices",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "transition_image": {
+          "type": "Image",
+          "config": {
+            "label": "Transition Image",
+            "constraint": {
+              "width": 1280,
+              "height": 200
+            },
+            "thumbnails": []
+          }
+        },
+        "background_of_small_images": {
+          "type": "Link",
+          "config": {
+            "label": "Background Of Small Images",
+            "select": "document",
+            "customtypes": [
+              "background_of_small_images"
+            ]
+          }
+        }
+      },
+      "items": {
+        "key_point_image": {
+          "type": "Image",
+          "config": {
+            "label": "Key Point Image",
+            "constraint": {
+              "width": 150,
+              "height": 100
+            },
+            "thumbnails": []
+          }
+        }
+      }
+    }
+  ]
+}

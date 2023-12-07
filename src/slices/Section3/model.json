@@ -1,0 +1,119 @@
+{
+  "id": "section3",
+  "type": "SharedSlice",
+  "name": "Section3",
+  "description": "Section3",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading3,strong,em"
+          }
+        },
+        "title_color": {
+          "type": "Color",
+          "config": {
+            "label": "Title Color",
+            "placeholder": ""
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Paragraph",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "paragraph_color": {
+          "type": "Color",
+          "config": {
+            "label": "Paragraph Color",
+            "placeholder": ""
+          }
+        },
+        "cta_text": {
+          "type": "Text",
+          "config": {
+            "label": "CTA Text",
+            "placeholder": ""
+          }
+        },
+        "iframe": {
+          "type": "Link",
+          "config": {
+            "label": "iFrame",
+            "select": "document",
+            "customtypes": [
+              "iframe"
+            ]
+          }
+        },
+        "after_cta_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "After CTA Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "video_embed_iframe": {
+          "type": "Text",
+          "config": {
+            "label": "Video Embed iFrame",
+            "placeholder": ""
+          }
+        },
+        "keep_image_right": {
+          "type": "Boolean",
+          "config": {
+            "label": "Keep Image Right",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          }
+        },
+        "background_image": {
+          "type": "Image",
+          "config": {
+            "label": "Background Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "background_of_small_images": {
+          "type": "Link",
+          "config": {
+            "label": "Background Of Small Images",
+            "select": "document",
+            "customtypes": [
+              "background_of_small_images"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

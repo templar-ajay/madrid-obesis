@@ -1,0 +1,68 @@
+{
+  "id": "header",
+  "label": "Header",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "background_color": {
+        "type": "Color",
+        "config": {
+          "label": "Background Color",
+          "placeholder": ""
+        }
+      },
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "Logo",
+          "constraint": {
+            "width": 200
+          },
+          "thumbnails": []
+        }
+      },
+      "cta_icon": {
+        "type": "Image",
+        "config": {
+          "label": "CTA Icon",
+          "constraint": {
+            "width": 35,
+            "height": 35
+          },
+          "thumbnails": []
+        }
+      },
+      "cta_message": {
+        "type": "Text",
+        "config": {
+          "label": "CTA Message",
+          "placeholder": ""
+        }
+      },
+      "cta_phone": {
+        "type": "Text",
+        "config": {
+          "label": "CTA Phone",
+          "placeholder": ""
+        }
+      },
+      "cta_link": {
+        "type": "Link",
+        "config": {
+          "label": "CTA Link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "cta_text_color": {
+        "type": "Color",
+        "config": {
+          "label": "CTA Text Color",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}
