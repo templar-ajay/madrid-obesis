@@ -111,9 +111,8 @@ const Section1 = ({ slice }: Section1Props): JSX.Element => {
           />
         </div>
         {Boolean(slice.primary.image) && (
-          <div className="image-div ">
+          <div className="flex justify-center">
             <PrismicNextImage field={slice.primary.image} />
-            {/* popup video will have to wait */}
           </div>
         )}
         <div className="text-div max-w-3xl mx-auto">

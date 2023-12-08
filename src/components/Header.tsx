@@ -36,11 +36,9 @@ export default async function Header() {
               <PrismicNextImage
                 field={logo}
                 style={{
-                  // maxHeight: "80px",
                   objectFit: "contain",
-                  maxWidth: "fit-content",
                 }}
-                className=" w-[120px] xs:w-[150px] sm:w-full"
+                className=" w-[120px] h-[50px] sm:h-[55px] xs:w-[150px] sm:w-full"
               />
             </Link>
           </div>
