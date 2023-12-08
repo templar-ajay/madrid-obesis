@@ -165,6 +165,13 @@
 							"value": "addition",
 							"type": "Text"
 						}
+					],
+					[
+						"image_below_text_on_mobile",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": false
+						}
 					]
 				]
 			},
@@ -329,6 +336,13 @@
 							"__TYPE__": "FieldContent",
 							"value": "village",
 							"type": "Text"
+						}
+					],
+					[
+						"image_below_text_on_mobile",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": true
 						}
 					]
 				]

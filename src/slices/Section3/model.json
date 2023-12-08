@@ -95,6 +95,15 @@
             "default_value": true
           }
         },
+        "image_below_text_on_mobile": {
+          "type": "Boolean",
+          "config": {
+            "label": "Image below Text on Mobile",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        },
         "background_image": {
           "type": "Image",
           "config": {

@@ -228,7 +228,7 @@ const Section2 = ({ slice }: Section2Props): JSX.Element => {
                           slice.primary.index_number_background_color ||
                           "rgba(55, 65, 81, 0.8)",
                       }}
-                      className="max-w-[25px] sm:max-w-[40px] text-3xl md:text-5xl pr-[45px] md:pr-[63px] p-3 mt-1 ml-4 rounded-xl text-white"
+                      className="max-w-[25px] sm:max-w-[40px] text-3xl md:text-5xl pr-[47px] md:pr-[66px] p-3 mt-1 ml-4 rounded-xl text-white"
                     >
                       <strong>{String(index + 1).padStart(2, "0")}</strong>
                     </div>

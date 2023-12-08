@@ -88,6 +88,7 @@ const Section3 = async ({ slice }: Section3Props): Promise<JSX.Element> => {
             image,
             video_embed_iframe,
             keep_image_right,
+            image_below_text_on_mobile,
             background_image,
             cta_text,
             iframe,
@@ -119,9 +120,10 @@ const Section3 = async ({ slice }: Section3Props): Promise<JSX.Element> => {
             >
               <div
                 className={clsx(
-                  keep_image_right == true || keep_image_right == null
+                  keep_image_right != false ? " " : "flex-row-reverse",
+                  image_below_text_on_mobile == true
                     ? "flex-wrap"
-                    : "flex-row-reverse flex-wrap-reverse",
+                    : "flex-wrap-reverse",
                   "flex gap-y-8"
                 )}
               >

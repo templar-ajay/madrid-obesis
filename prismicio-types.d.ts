@@ -1662,6 +1662,17 @@ export interface Section3SliceDefaultItem {
   keep_image_right: prismic.BooleanField;
 
   /**
+   * Image below Text on Mobile field in *Section3 → Items*
+   *
+   * - **Field Type**: Boolean
+   * - **Placeholder**: *None*
+   * - **Default Value**: false
+   * - **API ID Path**: section3.items[].image_below_text_on_mobile
+   * - **Documentation**: https://prismic.io/docs/field#boolean
+   */
+  image_below_text_on_mobile: prismic.BooleanField;
+
+  /**
    * Background Image field in *Section3 → Items*
    *
    * - **Field Type**: Image
