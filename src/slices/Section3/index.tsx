@@ -120,9 +120,9 @@ const Section3 = async ({ slice }: Section3Props): Promise<JSX.Element> => {
               <div
                 className={clsx(
                   keep_image_right == true || keep_image_right == null
-                    ? " "
-                    : "flex-row-reverse",
-                  "flex flex-wrap-reverse gap-y-8"
+                    ? "flex-wrap"
+                    : "flex-row-reverse flex-wrap-reverse",
+                  "flex gap-y-8"
                 )}
               >
                 <div className="flex-1 min-w-[22rem]">
