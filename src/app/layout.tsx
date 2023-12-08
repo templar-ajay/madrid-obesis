@@ -52,6 +52,12 @@ export async function generateMetadata(): Promise<Metadata> {
       images: [og_image?.url || "./fallback_image_path"],
     },
     robots: { index: block_indexing_by_search_engines == false },
+    viewport: {
+      width: "device-width",
+      initialScale: 1.0,
+      maximumScale: 1.0,
+      userScalable: false,
+    },
   };
 }
 
@@ -73,15 +79,6 @@ export default async function RootLayout({
   console.log("block indexing", block_indexing_by_search_engines);
   return (
     <html lang="en">
-      <Head>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-        />
-        {block_indexing_by_search_engines != false && (
-          <meta name="robots" content="noindex" />
-        )}
-      </Head>
       <body className={clsx(body.variable, display.variable)}>
         <Providers>
           <TrackingHeadScript id={GTM_ID || ""} isGTM={true} />

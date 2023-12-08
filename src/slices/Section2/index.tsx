@@ -143,7 +143,10 @@ const Section2 = ({ slice }: Section2Props): JSX.Element => {
             ))}
             <div className="w-full pr-[1rem] xs:pr-[2rem] sm:pr-[4rem] md:[3rem]">
               {slice.primary.cta_text?.length && (
-                <Button iframe={slice.primary.iframe}>
+                <Button
+                  cta_link={slice.primary.cta_link}
+                  iframe={slice.primary.iframe}
+                >
                   {slice.primary.cta_text}
                 </Button>
               )}
@@ -257,7 +260,10 @@ const Section2 = ({ slice }: Section2Props): JSX.Element => {
             ))}
             <div className="w-full max-w-xl mx-auto md:[3rem]">
               {slice.primary.cta_text?.length && (
-                <Button iframe={slice.primary.iframe}>
+                <Button
+                  cta_link={slice.primary.cta_link}
+                  iframe={slice.primary.iframe}
+                >
                   {slice.primary.cta_text}
                 </Button>
               )}

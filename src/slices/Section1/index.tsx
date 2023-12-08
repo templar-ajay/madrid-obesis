@@ -126,7 +126,10 @@ const Section1 = ({ slice }: Section1Props): JSX.Element => {
         </div>
         <div className="max-w-xl mx-auto">
           {slice.primary.cta_text?.length && (
-            <Button iframe={slice.primary.iframe}>
+            <Button
+              cta_link={slice.primary.cta_link}
+              iframe={slice.primary.iframe}
+            >
               {slice.primary.cta_text}
             </Button>
           )}

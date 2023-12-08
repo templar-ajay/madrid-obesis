@@ -62,6 +62,14 @@
             ]
           }
         },
+        "cta_link": {
+          "type": "Link",
+          "config": {
+            "label": "CTA Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
         "after_cta_text": {
           "type": "StructuredText",
           "config": {

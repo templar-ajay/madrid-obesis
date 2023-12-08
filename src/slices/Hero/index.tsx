@@ -156,7 +156,10 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
           </div>
           <div className="cta-div mx-auto max-w-xl ">
             {slice.primary.cta_text?.length && (
-              <Button iframe={slice.primary.iframe}>
+              <Button
+                cta_link={slice.primary.cta_link}
+                iframe={slice.primary.iframe}
+              >
                 {slice.primary.cta_text}
               </Button>
             )}

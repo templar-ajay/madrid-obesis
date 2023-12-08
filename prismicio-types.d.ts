@@ -278,88 +278,6 @@ export type HeaderDocument<Lang extends string = string> =
     Lang
   >;
 
-type HomepageDocumentDataSlicesSlice =
-  | ComparisonSlice
-  | ReviewsSlice
-  | Section3Slice
-  | Section2Slice
-  | Section1Slice
-  | HeroSlice;
-
-/**
- * Content for Homepage documents
- */
-interface HomepageDocumentData {
-  /**
-   * Title field in *Homepage*
-   *
-   * - **Field Type**: Text
-   * - **Placeholder**: *None*
-   * - **API ID Path**: homepage.title
-   * - **Tab**: Main
-   * - **Documentation**: https://prismic.io/docs/field#key-text
-   */
-  title: prismic.KeyTextField;
-
-  /**
-   * Slice Zone field in *Homepage*
-   *
-   * - **Field Type**: Slice Zone
-   * - **Placeholder**: *None*
-   * - **API ID Path**: homepage.slices[]
-   * - **Tab**: Main
-   * - **Documentation**: https://prismic.io/docs/field#slices
-   */
-  slices: prismic.SliceZone<HomepageDocumentDataSlicesSlice> /**
-   * Meta Title field in *Homepage*
-   *
-   * - **Field Type**: Text
-   * - **Placeholder**: A title of the page used for social media and search engines
-   * - **API ID Path**: homepage.meta_title
-   * - **Tab**: SEO & Metadata
-   * - **Documentation**: https://prismic.io/docs/field#key-text
-   */;
-  meta_title: prismic.KeyTextField;
-
-  /**
-   * Meta Description field in *Homepage*
-   *
-   * - **Field Type**: Text
-   * - **Placeholder**: A brief summary of the page
-   * - **API ID Path**: homepage.meta_description
-   * - **Tab**: SEO & Metadata
-   * - **Documentation**: https://prismic.io/docs/field#key-text
-   */
-  meta_description: prismic.KeyTextField;
-
-  /**
-   * Meta Image field in *Homepage*
-   *
-   * - **Field Type**: Image
-   * - **Placeholder**: *None*
-   * - **API ID Path**: homepage.meta_image
-   * - **Tab**: SEO & Metadata
-   * - **Documentation**: https://prismic.io/docs/field#image
-   */
-  meta_image: prismic.ImageField<never>;
-}
-
-/**
- * Homepage document from Prismic
- *
- * - **API ID**: `homepage`
- * - **Repeatable**: `false`
- * - **Documentation**: https://prismic.io/docs/custom-types
- *
- * @typeParam Lang - Language API ID of the document.
- */
-export type HomepageDocument<Lang extends string = string> =
-  prismic.PrismicDocumentWithoutUID<
-    Simplify<HomepageDocumentData>,
-    "homepage",
-    Lang
-  >;
-
 /**
  * Content for iFrame documents
  */
@@ -606,7 +524,6 @@ export type AllDocumentTypes =
   | BackgroundOfSmallImagesDocument
   | FooterDocument
   | HeaderDocument
-  | HomepageDocument
   | IframeDocument
   | LandingPageDocument
   | SettingsDocument;
@@ -654,6 +571,16 @@ export interface ComparisonSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
   iframe: prismic.ContentRelationshipField<"iframe">;
+
+  /**
+   * CTA Link field in *Comparison → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: comparison.primary.cta_link
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  cta_link: prismic.LinkField;
 
   /**
    * After CTA Text field in *Comparison → Primary*
@@ -854,6 +781,16 @@ export interface HeroSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
   iframe: prismic.ContentRelationshipField<"iframe">;
+
+  /**
+   * CTA Link field in *Hero → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero.primary.cta_link
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  cta_link: prismic.LinkField;
 
   /**
    * After CTA Text field in *Hero → Primary*
@@ -1143,6 +1080,16 @@ export interface Section1SliceDefaultPrimary {
   iframe: prismic.ContentRelationshipField<"iframe">;
 
   /**
+   * CTA Link field in *Section1 → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: section1.primary.cta_link
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  cta_link: prismic.LinkField;
+
+  /**
    * After CTA Text field in *Section1 → Primary*
    *
    * - **Field Type**: Rich Text
@@ -1266,6 +1213,16 @@ export interface Section2SliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
   iframe: prismic.ContentRelationshipField<"iframe">;
+
+  /**
+   * CTA Link field in *Section2 → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: section2.primary.cta_link
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  cta_link: prismic.LinkField;
 
   /**
    * After CTA Text field in *Section2 → Primary*
@@ -1419,6 +1376,16 @@ export interface Section2SlicePointBlocksPrimary {
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
   iframe: prismic.ContentRelationshipField<"iframe">;
+
+  /**
+   * CTA Link field in *Section2 → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: section2.primary.cta_link
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  cta_link: prismic.LinkField;
 
   /**
    * After CTA Text field in *Section2 → Primary*
@@ -1619,6 +1586,16 @@ export interface Section3SliceDefaultItem {
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
   iframe: prismic.ContentRelationshipField<"iframe">;
+
+  /**
+   * CTA Link field in *Section3 → Items*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: section3.items[].cta_link
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  cta_link: prismic.LinkField;
 
   /**
    * After CTA Text field in *Section3 → Items*
@@ -1825,9 +1802,6 @@ declare module "@prismicio/client" {
       FooterDocumentData,
       HeaderDocument,
       HeaderDocumentData,
-      HomepageDocument,
-      HomepageDocumentData,
-      HomepageDocumentDataSlicesSlice,
       IframeDocument,
       IframeDocumentData,
       LandingPageDocument,
