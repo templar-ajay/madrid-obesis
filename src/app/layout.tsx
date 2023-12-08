@@ -37,7 +37,12 @@ export async function generateMetadata(): Promise<Metadata> {
   const settings = await client.getSingle("settings");
 
   const {
-    data: { meta_title, meta_description, og_image },
+    data: {
+      meta_title,
+      meta_description,
+      og_image,
+      block_indexing_by_search_engines,
+    },
   } = settings;
 
   return {
@@ -46,6 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       images: [og_image?.url || "./fallback_image_path"],
     },
+    robots: { index: block_indexing_by_search_engines == false },
   };
 }
 
