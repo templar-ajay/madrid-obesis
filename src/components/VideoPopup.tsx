@@ -34,7 +34,7 @@ export default function VideoPopup({
         {image}
       </div>
       <Modal isOpen={isOpen} onOpenChange={onOpenChange} size="2xl">
-        <ModalContent style={{ height: "380px", background: "transparent" }}>
+        <ModalContent className="mb-[25vh] sm:mb-0 h-[380px] bg-transparent">
           {(onClose) => (
             <>
               <ModalBody style={{ paddingRight: 0, paddingLeft: 0 }}>
