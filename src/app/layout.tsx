@@ -1,4 +1,5 @@
-import type { Metadata, ResolvingMetadata } from "next";
+import type { Metadata, ResolvingMetadata, Viewport } from "next";
+
 import "./globals.css";
 import clsx from "clsx";
 
@@ -52,14 +53,15 @@ export async function generateMetadata(): Promise<Metadata> {
       images: [og_image?.url || "./fallback_image_path"],
     },
     robots: { index: block_indexing_by_search_engines == false },
-    viewport: {
-      width: "device-width",
-      initialScale: 1.0,
-      maximumScale: 1.0,
-      userScalable: false,
-    },
   };
 }
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1.0,
+  maximumScale: 1.0,
+  userScalable: false,
+};
 
 export default async function RootLayout({
   children,
