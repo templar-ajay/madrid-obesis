@@ -50,11 +50,11 @@ export default async function Header({ uid }: HeaderProps) {
           <PrismicNextLink field={cta_link}>
             <div className="cta h-fit">
               <div className="flex items-center gap-2 xs:gap-3">
-                <div className="block">
+                <div className="block w-[25px] sm:w-[35px]">
                   <PrismicNextImage
                     className="w-[25px] sm:w-[35px]"
                     field={cta_icon}
-                    loading="eager"
+                    // loading="eager"
                   />
                 </div>
                 <div className="block">
