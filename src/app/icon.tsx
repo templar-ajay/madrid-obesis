@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { createClient } from "@/prismicio";
 
 // Route segment config
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 // Image metadata
 export const size = {
