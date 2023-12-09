@@ -1,4 +1,5 @@
 import type { Metadata, ResolvingMetadata, Viewport } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "./globals.css";
 import clsx from "clsx";
@@ -10,7 +11,6 @@ import { PrismicPreview } from "@prismicio/next";
 
 import { Providers } from "@/app/providers";
 import { TrackingHeadScript } from "@phntms/next-gtm";
-import Head from "next/head";
 
 const body = Nunito_Sans({
   subsets: ["latin"],
@@ -82,6 +82,7 @@ export default async function RootLayout({
         <Providers>
           <TrackingHeadScript id={GTM_ID || ""} isGTM={true} />
           {children}
+          <SpeedInsights />
         </Providers>
         <PrismicPreview repositoryName={repositoryName} />
       </body>
