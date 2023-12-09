@@ -42,6 +42,7 @@ export default async function Header({ uid }: HeaderProps) {
                 style={{
                   objectFit: "contain",
                 }}
+                loading="eager"
                 className=" w-[120px] h-[50px] sm:h-[55px] xs:w-[150px] sm:w-full"
               />
             </Link>
@@ -53,6 +54,7 @@ export default async function Header({ uid }: HeaderProps) {
                   <PrismicNextImage
                     className="w-[25px] sm:w-[35px]"
                     field={cta_icon}
+                    loading="eager"
                   />
                 </div>
                 <div className="block">
