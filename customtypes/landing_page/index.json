@@ -12,6 +12,22 @@
         },
         "type": "UID"
       },
+      "header": {
+        "type": "Link",
+        "config": {
+          "label": "Header",
+          "select": "document",
+          "customtypes": ["header_reusable"]
+        }
+      },
+      "footer": {
+        "type": "Link",
+        "config": {
+          "label": "Footer",
+          "select": "document",
+          "customtypes": ["footer_reusable"]
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",

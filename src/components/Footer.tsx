@@ -3,9 +3,13 @@ import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";
 import { PrismicRichText } from "@prismicio/react";
 import Bounded from "@/components/Bounded";
 
-export default async function Footer() {
+type FooterProps = {
+  uid: string;
+};
+
+export default async function Footer({ uid }: FooterProps) {
   const client = createClient();
-  const footerData = await client.getSingle("footer");
+  const footerData = await client.getByUID("footer_reusable", uid);
   const settings = await client.getSingle("settings");
 
   const {

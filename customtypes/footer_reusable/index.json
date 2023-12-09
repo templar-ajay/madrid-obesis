@@ -1,11 +1,17 @@
 {
-  "id": "footer",
-  "label": "Footer",
+  "id": "footer_reusable",
+  "label": "Footer Reusable",
   "format": "custom",
-  "repeatable": false,
+  "repeatable": true,
   "status": true,
   "json": {
     "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
       "background_image": {
         "type": "Image",
         "config": {

@@ -39,125 +39,125 @@ export type BackgroundOfSmallImagesDocument<Lang extends string = string> =
   >;
 
 /**
- * Content for Footer documents
+ * Content for Footer Reusable documents
  */
-interface FooterDocumentData {
+interface FooterReusableDocumentData {
   /**
-   * Background Image field in *Footer*
+   * Background Image field in *Footer Reusable*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
-   * - **API ID Path**: footer.background_image
+   * - **API ID Path**: footer_reusable.background_image
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#image
    */
   background_image: prismic.ImageField<never>;
 
   /**
-   * Terms and Conditions Text field in *Footer*
+   * Terms and Conditions Text field in *Footer Reusable*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: *None*
-   * - **API ID Path**: footer.terms_and_conditions_text
+   * - **API ID Path**: footer_reusable.terms_and_conditions_text
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */
   terms_and_conditions_text: prismic.RichTextField;
 
   /**
-   * Logo field in *Footer*
+   * Logo field in *Footer Reusable*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
-   * - **API ID Path**: footer.logo
+   * - **API ID Path**: footer_reusable.logo
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#image
    */
   logo: prismic.ImageField<never>;
 
   /**
-   * Company Name field in *Footer*
+   * Company Name field in *Footer Reusable*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
-   * - **API ID Path**: footer.company_name
+   * - **API ID Path**: footer_reusable.company_name
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#key-text
    */
   company_name: prismic.KeyTextField;
 
   /**
-   * Privacy Policy Link field in *Footer*
+   * Privacy Policy Link field in *Footer Reusable*
    *
    * - **Field Type**: Link
    * - **Placeholder**: *None*
-   * - **API ID Path**: footer.privacy_policy_link
+   * - **API ID Path**: footer_reusable.privacy_policy_link
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
   privacy_policy_link: prismic.LinkField;
 
   /**
-   * Terms and Conditions Link field in *Footer*
+   * Terms and Conditions Link field in *Footer Reusable*
    *
    * - **Field Type**: Link
    * - **Placeholder**: *None*
-   * - **API ID Path**: footer.terms_and_conditions_link
+   * - **API ID Path**: footer_reusable.terms_and_conditions_link
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
   terms_and_conditions_link: prismic.LinkField;
 
   /**
-   * Whatsapp Link field in *Footer*
+   * Whatsapp Link field in *Footer Reusable*
    *
    * - **Field Type**: Link
    * - **Placeholder**: *None*
-   * - **API ID Path**: footer.whatsapp_link
+   * - **API ID Path**: footer_reusable.whatsapp_link
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
   whatsapp_link: prismic.LinkField;
 
   /**
-   * Whatsapp Icon Color field in *Footer*
+   * Whatsapp Icon Color field in *Footer Reusable*
    *
    * - **Field Type**: Color
    * - **Placeholder**: *None*
-   * - **API ID Path**: footer.whatsapp_icon_color
+   * - **API ID Path**: footer_reusable.whatsapp_icon_color
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#color
    */
   whatsapp_icon_color: prismic.ColorField;
 
   /**
-   * Whatsapp Icon Background Color field in *Footer*
+   * Whatsapp Icon Background Color field in *Footer Reusable*
    *
    * - **Field Type**: Color
    * - **Placeholder**: *None*
-   * - **API ID Path**: footer.whatsapp_icon_background_color
+   * - **API ID Path**: footer_reusable.whatsapp_icon_background_color
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#color
    */
   whatsapp_icon_background_color: prismic.ColorField;
 
   /**
-   * Medical Marketing Website Link field in *Footer*
+   * Medical Marketing Website Link field in *Footer Reusable*
    *
    * - **Field Type**: Link
    * - **Placeholder**: *None*
-   * - **API ID Path**: footer.medical_marketing_website_link
+   * - **API ID Path**: footer_reusable.medical_marketing_website_link
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
   medical_marketing_website_link: prismic.LinkField;
 
   /**
-   * Medical Marketing Website Link Text field in *Footer*
+   * Medical Marketing Website Link Text field in *Footer Reusable*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
-   * - **API ID Path**: footer.medical_marketing_website_link_text
+   * - **API ID Path**: footer_reusable.medical_marketing_website_link_text
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#key-text
    */
@@ -165,97 +165,97 @@ interface FooterDocumentData {
 }
 
 /**
- * Footer document from Prismic
+ * Footer Reusable document from Prismic
  *
- * - **API ID**: `footer`
- * - **Repeatable**: `false`
+ * - **API ID**: `footer_reusable`
+ * - **Repeatable**: `true`
  * - **Documentation**: https://prismic.io/docs/custom-types
  *
  * @typeParam Lang - Language API ID of the document.
  */
-export type FooterDocument<Lang extends string = string> =
-  prismic.PrismicDocumentWithoutUID<
-    Simplify<FooterDocumentData>,
-    "footer",
+export type FooterReusableDocument<Lang extends string = string> =
+  prismic.PrismicDocumentWithUID<
+    Simplify<FooterReusableDocumentData>,
+    "footer_reusable",
     Lang
   >;
 
 /**
- * Content for Header documents
+ * Content for Header Reusable documents
  */
-interface HeaderDocumentData {
+interface HeaderReusableDocumentData {
   /**
-   * Background Color field in *Header*
+   * Background Color field in *Header Reusable*
    *
    * - **Field Type**: Color
    * - **Placeholder**: *None*
-   * - **API ID Path**: header.background_color
+   * - **API ID Path**: header_reusable.background_color
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#color
    */
   background_color: prismic.ColorField;
 
   /**
-   * Logo field in *Header*
+   * Logo field in *Header Reusable*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
-   * - **API ID Path**: header.logo
+   * - **API ID Path**: header_reusable.logo
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#image
    */
   logo: prismic.ImageField<never>;
 
   /**
-   * CTA Icon field in *Header*
+   * CTA Icon field in *Header Reusable*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
-   * - **API ID Path**: header.cta_icon
+   * - **API ID Path**: header_reusable.cta_icon
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#image
    */
   cta_icon: prismic.ImageField<never>;
 
   /**
-   * CTA Message field in *Header*
+   * CTA Message field in *Header Reusable*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
-   * - **API ID Path**: header.cta_message
+   * - **API ID Path**: header_reusable.cta_message
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#key-text
    */
   cta_message: prismic.KeyTextField;
 
   /**
-   * CTA Phone field in *Header*
+   * CTA Phone field in *Header Reusable*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
-   * - **API ID Path**: header.cta_phone
+   * - **API ID Path**: header_reusable.cta_phone
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#key-text
    */
   cta_phone: prismic.KeyTextField;
 
   /**
-   * CTA Link field in *Header*
+   * CTA Link field in *Header Reusable*
    *
    * - **Field Type**: Link
    * - **Placeholder**: *None*
-   * - **API ID Path**: header.cta_link
+   * - **API ID Path**: header_reusable.cta_link
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
   cta_link: prismic.LinkField;
 
   /**
-   * CTA Text Color field in *Header*
+   * CTA Text Color field in *Header Reusable*
    *
    * - **Field Type**: Color
    * - **Placeholder**: *None*
-   * - **API ID Path**: header.cta_text_color
+   * - **API ID Path**: header_reusable.cta_text_color
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#color
    */
@@ -263,18 +263,18 @@ interface HeaderDocumentData {
 }
 
 /**
- * Header document from Prismic
+ * Header Reusable document from Prismic
  *
- * - **API ID**: `header`
- * - **Repeatable**: `false`
+ * - **API ID**: `header_reusable`
+ * - **Repeatable**: `true`
  * - **Documentation**: https://prismic.io/docs/custom-types
  *
  * @typeParam Lang - Language API ID of the document.
  */
-export type HeaderDocument<Lang extends string = string> =
-  prismic.PrismicDocumentWithoutUID<
-    Simplify<HeaderDocumentData>,
-    "header",
+export type HeaderReusableDocument<Lang extends string = string> =
+  prismic.PrismicDocumentWithUID<
+    Simplify<HeaderReusableDocumentData>,
+    "header_reusable",
     Lang
   >;
 
@@ -318,6 +318,28 @@ type LandingPageDocumentDataSlicesSlice =
  * Content for Landing Page documents
  */
 interface LandingPageDocumentData {
+  /**
+   * Header field in *Landing Page*
+   *
+   * - **Field Type**: Content Relationship
+   * - **Placeholder**: *None*
+   * - **API ID Path**: landing_page.header
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  header: prismic.ContentRelationshipField<"header_reusable">;
+
+  /**
+   * Footer field in *Landing Page*
+   *
+   * - **Field Type**: Content Relationship
+   * - **Placeholder**: *None*
+   * - **API ID Path**: landing_page.footer
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  footer: prismic.ContentRelationshipField<"footer_reusable">;
+
   /**
    * Slice Zone field in *Landing Page*
    *
@@ -382,6 +404,39 @@ export type LandingPageDocument<Lang extends string = string> =
  */
 interface SettingsDocumentData {
   /**
+   * Favicon field in *Settings*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: settings.favicon
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  favicon: prismic.ImageField<never>;
+
+  /**
+   * Default Header field in *Settings*
+   *
+   * - **Field Type**: Content Relationship
+   * - **Placeholder**: *None*
+   * - **API ID Path**: settings.default_header
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  default_header: prismic.ContentRelationshipField<"header_reusable">;
+
+  /**
+   * Default Footer field in *Settings*
+   *
+   * - **Field Type**: Content Relationship
+   * - **Placeholder**: *None*
+   * - **API ID Path**: settings.default_footer
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  default_footer: prismic.ContentRelationshipField<"footer_reusable">;
+
+  /**
    * Primary Color field in *Settings*
    *
    * - **Field Type**: Color
@@ -424,17 +479,6 @@ interface SettingsDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#color
    */
   cta_background_color: prismic.ColorField;
-
-  /**
-   * Favicon field in *Settings*
-   *
-   * - **Field Type**: Image
-   * - **Placeholder**: *None*
-   * - **API ID Path**: settings.favicon
-   * - **Tab**: Main
-   * - **Documentation**: https://prismic.io/docs/field#image
-   */
-  favicon: prismic.ImageField<never>;
 
   /**
    * Meta Title field in *Settings*
@@ -522,8 +566,8 @@ export type SettingsDocument<Lang extends string = string> =
 
 export type AllDocumentTypes =
   | BackgroundOfSmallImagesDocument
-  | FooterDocument
-  | HeaderDocument
+  | FooterReusableDocument
+  | HeaderReusableDocument
   | IframeDocument
   | LandingPageDocument
   | SettingsDocument;
@@ -1798,10 +1842,10 @@ declare module "@prismicio/client" {
       BackgroundOfSmallImagesDocument,
       BackgroundOfSmallImagesDocumentData,
       BackgroundOfSmallImagesDocumentDataSlicesSlice,
-      FooterDocument,
-      FooterDocumentData,
-      HeaderDocument,
-      HeaderDocumentData,
+      FooterReusableDocument,
+      FooterReusableDocumentData,
+      HeaderReusableDocument,
+      HeaderReusableDocumentData,
       IframeDocument,
       IframeDocumentData,
       LandingPageDocument,

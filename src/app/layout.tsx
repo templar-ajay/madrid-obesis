@@ -8,9 +8,6 @@ import { Nunito, Nunito_Sans } from "next/font/google";
 import { createClient, repositoryName } from "@/prismicio";
 import { PrismicPreview } from "@prismicio/next";
 
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-
 import { Providers } from "@/app/providers";
 import { TrackingHeadScript } from "@phntms/next-gtm";
 import Head from "next/head";
@@ -84,9 +81,7 @@ export default async function RootLayout({
       <body className={clsx(body.variable, display.variable)}>
         <Providers>
           <TrackingHeadScript id={GTM_ID || ""} isGTM={true} />
-          <Header />
           {children}
-          <Footer />
         </Providers>
         <PrismicPreview repositoryName={repositoryName} />
       </body>

@@ -2,10 +2,14 @@ import { createClient } from "@/prismicio";
 import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";
 import Link from "next/link";
 
-export default async function Header() {
+type HeaderProps = {
+  uid: string;
+};
+
+export default async function Header({ uid }: HeaderProps) {
   const client = createClient();
 
-  const header = await client.getSingle("header");
+  const header = await client.getByUID("header_reusable", uid);
   const settings = await client.getSingle("settings");
   const { secondary_color } = settings.data;
   // console.log("header", header);

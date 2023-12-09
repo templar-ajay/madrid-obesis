@@ -1,11 +1,17 @@
 {
-  "id": "header",
-  "label": "Header",
+  "id": "header_reusable",
+  "label": "Header Reusable",
   "format": "custom",
-  "repeatable": false,
+  "repeatable": true,
   "status": true,
   "json": {
     "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
       "background_color": {
         "type": "Color",
         "config": {
