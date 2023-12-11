@@ -319,6 +319,17 @@ type LandingPageDocumentDataSlicesSlice =
  */
 interface LandingPageDocumentData {
   /**
+   * Comments for Content Editors field in *Landing Page*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: landing_page.comments_for_content_editors
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  comments_for_content_editors: prismic.RichTextField;
+
+  /**
    * Header field in *Landing Page*
    *
    * - **Field Type**: Content Relationship
