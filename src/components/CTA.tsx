@@ -22,9 +22,8 @@ export default function CTA({
   className,
   style,
   children,
-  iframe,
-} // cta_iframe,
-: CtaProps) {
+  iframe, // cta_iframe,
+}: CtaProps) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return (
@@ -62,7 +61,6 @@ export default function CTA({
                 {iframe}
                 {/* <IframeCSR cta_iframe={cta_iframe} /> */}
               </ModalBody>
-              j
             </>
           )}
         </ModalContent>
