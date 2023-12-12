@@ -15,11 +15,18 @@ export default async function Button({
   const { cta_background_color, cta_text_color, default_iframe } =
     settings.data;
 
+  // // render the iframe CLIENT-SIDE
+  // //@ts-ignore
+  // const uid = iframe?.uid || default_iframe?.uid;
+  // const _iframe = await client.getByUID("iframe", uid);
+  // const { cta_iframe } = _iframe.data;
+
   return (
     <div className="relative">
       {iframe?.id ? (
         <CTA
           iframe={<Iframe iframe={iframe || default_iframe}></Iframe>}
+          // cta_iframe={cta_iframe || ""}
           className={className}
           style={{
             color: cta_text_color || "rgb(250,255,255)",

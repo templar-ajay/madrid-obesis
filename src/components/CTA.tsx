@@ -8,15 +8,23 @@ import {
   useDisclosure,
 } from "@nextui-org/react";
 import clsx from "clsx";
+// import IframeCSR from "@/components/iFrameCSR";
 
 type CtaProps = {
   className: string;
   style: object;
   children: ReactElement;
   iframe: ReactElement;
+  // cta_iframe?: String;
 };
 
-export default function CTA({ className, style, children, iframe }: CtaProps) {
+export default function CTA({
+  className,
+  style,
+  children,
+  iframe,
+} // cta_iframe,
+: CtaProps) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return (
@@ -52,7 +60,9 @@ export default function CTA({ className, style, children, iframe }: CtaProps) {
                   src="https://link.msgsndr.com/js/form_embed.js"
                 ></script> */}
                 {iframe}
+                {/* <IframeCSR cta_iframe={cta_iframe} /> */}
               </ModalBody>
+              j
             </>
           )}
         </ModalContent>
