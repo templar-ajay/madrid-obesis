@@ -12,8 +12,7 @@ export default async function Button({
 }: any) {
   const client = createClient();
   const settings = await client.getSingle("settings");
-  const { cta_background_color, cta_text_color, default_iframe } =
-    settings.data;
+  const { cta_background_color, cta_text_color } = settings.data;
 
   // // render the iframe CLIENT-SIDE
   // //@ts-ignore
@@ -25,7 +24,7 @@ export default async function Button({
     <div className="relative">
       {iframe?.id ? (
         <CTA
-          iframe={<Iframe iframe={iframe || default_iframe}></Iframe>}
+          iframe={<Iframe iframe={iframe}></Iframe>}
           // cta_iframe={cta_iframe || ""}
           className={className}
           style={{

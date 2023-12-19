@@ -536,17 +536,6 @@ interface SettingsDocumentData {
   gtm_id: prismic.KeyTextField;
 
   /**
-   * default iFrame field in *Settings*
-   *
-   * - **Field Type**: Content Relationship
-   * - **Placeholder**: *None*
-   * - **API ID Path**: settings.default_iframe
-   * - **Tab**: Main
-   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
-   */
-  default_iframe: prismic.ContentRelationshipField<"iframe">;
-
-  /**
    * Block Indexing by Search Engines field in *Settings*
    *
    * - **Field Type**: Boolean

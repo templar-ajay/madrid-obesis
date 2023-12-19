@@ -91,6 +91,7 @@ const Section3 = async ({ slice }: Section3Props): Promise<JSX.Element> => {
             image_below_text_on_mobile,
             background_image,
             cta_text,
+            cta_link,
             iframe,
             after_cta_text,
             title_color,
@@ -153,10 +154,7 @@ const Section3 = async ({ slice }: Section3Props): Promise<JSX.Element> => {
                     </div>
                     {cta_text?.length && (
                       <div className="cta-div">
-                        <Button
-                          cta_link={slice.primary.cta_link}
-                          iframe={iframe}
-                        >
+                        <Button cta_link={cta_link} iframe={iframe}>
                           {cta_text}
                         </Button>
                       </div>
